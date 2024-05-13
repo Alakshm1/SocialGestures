@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2023-01-16T22:42:15-06:00"
+    FORMAT="3.0" VERSION="3.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
+    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds"/>
+    <TIME_ORDER/>
+    <TIER LINGUISTIC_TYPE_REF="Presence" TIER_ID="GESTURE_PRESENCE_1_C3"/>
+    <TIER LINGUISTIC_TYPE_REF="Presence" TIER_ID="GESTURE_PRESENCE_2_C3"/>
+    <TIER LINGUISTIC_TYPE_REF="default-lt" TIER_ID="GC2_COMMENTS_C3"/>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false"
+        LINGUISTIC_TYPE_ID="default-lt" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONTROLLED_VOCABULARY_REF="Presence"
+        GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="Presence" TIME_ALIGNABLE="true"/>
+    <LANGUAGE LANG_DEF="http://cdb.iso.org/lg/CDB-00130975-001"
+        LANG_ID="und" LANG_LABEL="undetermined (und)"/>
+    <CONSTRAINT
+        DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
+    <CONSTRAINT
+        DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
+    <CONSTRAINT
+        DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
+    <CONTROLLED_VOCABULARY CV_ID="Presence">
+        <DESCRIPTION LANG_REF="und"/>
+        <CV_ENTRY_ML CVE_ID="cveid_7fa4ff3d-ad7a-42a7-9f60-1950879e6694">
+            <CVE_VALUE LANG_REF="und">Yes</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_a35cbcb1-afd5-4ee8-acac-82ce5ce09436">
+            <CVE_VALUE LANG_REF="und">No</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_c69a315a-3c3b-4581-8e29-5f37536facb1">
+            <CVE_VALUE LANG_REF="und">Maybe</CVE_VALUE>
+        </CV_ENTRY_ML>
+    </CONTROLLED_VOCABULARY>
+</ANNOTATION_DOCUMENT>
