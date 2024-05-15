@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2023-06-15T19:01:48+02:00"
+    FORMAT="3.0" VERSION="3.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
+    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds"/>
+    <TIME_ORDER/>
+    <TIER LINGUISTIC_TYPE_REF="Utterance Dimension" TIER_ID="Utterance Dimension_C6"/>
+    <TIER LINGUISTIC_TYPE_REF="Comments_VC2" TIER_ID="Comments_VC2_C6"/>
+    <LINGUISTIC_TYPE CONTROLLED_VOCABULARY_REF="Utterance Dimension"
+        GRAPHIC_REFERENCES="false"
+        LINGUISTIC_TYPE_ID="Utterance Dimension" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false"
+        LINGUISTIC_TYPE_ID="Comments_VC2" TIME_ALIGNABLE="true"/>
+    <LANGUAGE LANG_DEF="http://cdb.iso.org/lg/CDB-00130975-001"
+        LANG_ID="und" LANG_LABEL="undetermined (und)"/>
+    <CONSTRAINT
+        DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
+    <CONSTRAINT
+        DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
+    <CONSTRAINT
+        DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
+    <CONTROLLED_VOCABULARY CV_ID="Utterance Dimension">
+        <DESCRIPTION LANG_REF="und"/>
+        <CV_ENTRY_ML CVE_ID="cveid_0fec9579-194b-4a40-b487-35512d9517f5">
+            <CVE_VALUE LANG_REF="und">1 (HW)</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_4be0b7cd-8488-4304-9b89-e272dcf35f00">
+            <CVE_VALUE LANG_REF="und">2 (LW)</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_f57035d1-d5ee-4ac3-8808-ddd34a80cf32">
+            <CVE_VALUE LANG_REF="und">3 (HC)</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_42644b0d-f1f7-4aaf-9ae4-aa5fe1b1a6ac">
+            <CVE_VALUE LANG_REF="und">4 (LC)</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_ae0c5e57-d385-4340-bd19-66b4dec93567">
+            <CVE_VALUE LANG_REF="und">1S (HW -S)</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_4eb47fb2-cf9b-46b1-b9ca-8a43da955260">
+            <CVE_VALUE LANG_REF="und">2S (LW -S)</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_58c84997-b6f2-4b28-9eeb-51208a20a84c">
+            <CVE_VALUE LANG_REF="und">3S (HC -S)</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_fd263709-865e-4081-a17c-1fda5f6175cc">
+            <CVE_VALUE LANG_REF="und">4S (LC -S)</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_a60a0dd8-03a0-4f09-a750-4d5642408bf7">
+            <CVE_VALUE LANG_REF="und">17 (Complexity)</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_4f26ed73-b653-45c4-8845-f1dcd69c04e5">
+            <CVE_VALUE LANG_REF="und">18 (Other Social Content)</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_0aa15ad4-cc2d-4ee9-a934-82d6d29f6d6b">
+            <CVE_VALUE LANG_REF="und">19 (Ambiguity)</CVE_VALUE>
+        </CV_ENTRY_ML>
+    </CONTROLLED_VOCABULARY>
+</ANNOTATION_DOCUMENT>
